@@ -106,7 +106,7 @@ h1,h2,h3{
 
 
 /* Media Types */
-
+/* 
 @media (max-width: 768px){
   .wel-txt-div{
     text-align: center;
@@ -144,4 +144,4 @@ h1,h2,h3{
   .iphone-img{
     width: 17rem;
   }
-}
+} */
