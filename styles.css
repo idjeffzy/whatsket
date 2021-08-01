@@ -59,6 +59,7 @@ h1,h2,h3{
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.20rem;
   text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 .cnt-txt{
@@ -108,6 +109,11 @@ h1,h2,h3{
   width: 100%;
 }
 
+.pmt-btn-div{
+  margin-top: 80px;
+  text-align: center;
+}
+
 /* Media Types */
 
 @media (max-width: 768px){
@@ -128,15 +134,18 @@ h1,h2,h3{
     width: 15rem;
   }
 
-.pmt-btn-div{
-  margin-top: 80px;
-  text-align: center;
 
 }
 
+@media (min-width: 425px) and (max-width: 768px){
+
+  .slr-imgs{
+  width: 70%;
+  }
+
 }
 
-@media (max-width: 875px) and (min-width: 768px){
+@media (min-width: 768px) and (max-width: 875px){
   .iphone-img{
     width: 13rem;
   }
@@ -154,4 +163,9 @@ h1,h2,h3{
   .iphone-img{
     width: 17rem;
   }
+
+  .slr-imgs{
+    width: 75%;
+  }
+
 }
