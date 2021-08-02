@@ -99,6 +99,11 @@ h1,h2,h3{
   color: #1DA1F2;
 }
 
+.navbar-toggler:focus, .btn:focus{
+  box-shadow: none!important;
+  outline: none!important;
+}
+
 .fa-twitter:hover {
   transform: scale(1.4);
   transition: 0.4s;
