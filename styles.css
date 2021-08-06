@@ -11,6 +11,8 @@ font-family: 'Uchen', serif; */
 /* rules */
 /* font-family: 'Roboto', sans-serif; */
 
+/* MarketPlace Page CSS */
+
 
 /* Tag Selectors */
 
@@ -74,13 +76,8 @@ h1,h2,h3{
   color: rgb(66 103 178);
 }
 
-.fa-facebook-f:hover {
-  transform: scale(1.4);
-  transition: 0.4s;
-  cursor: pointer;
-}
-
 .fa-instagram{
+  background-color: white;
   background-clip: content-box;
   background-image: linear-gradient(to top right, #FFDF9E, #FFC273, #E56969, #C1558B, #8A49A1);
   -webkit-background-clip: text;
@@ -89,22 +86,19 @@ h1,h2,h3{
   -moz-text-fill-color: transparent;
 }
 
-.fa-instagram:hover {
-  transform: scale(1.4);
-  transition: 0.4s;
-  cursor: pointer;
-}
-
 .fa-twitter{
   color: #1DA1F2;
 }
 
-.navbar-toggler:focus, .btn:focus{
-  box-shadow: none!important;
-  outline: none!important;
+.fa-youtube{
+  color: #ff0000;
 }
 
-.fa-twitter:hover {
+.fa-bi{
+  margin: 0 0.3rem
+}
+
+.fa-bi:hover{
   transform: scale(1.4);
   transition: 0.4s;
   cursor: pointer;
@@ -117,6 +111,11 @@ h1,h2,h3{
 .pmt-btn-div{
   margin-top: 80px;
   text-align: center;
+}
+
+.navbar-toggler:focus, .btn:focus{
+  box-shadow: none!important;
+  outline: none!important;
 }
 
 /* Media Types */
@@ -174,3 +173,5 @@ h1,h2,h3{
   }
 
 }
+
+@import url('css/marketplace.css');
