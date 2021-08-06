@@ -1,3 +1,4 @@
+@import url('css/marketplace.css');
 /* imports */
 
 /* main font */
@@ -12,7 +13,6 @@ font-family: 'Uchen', serif; */
 /* font-family: 'Roboto', sans-serif; */
 
 /* MarketPlace Page CSS */
-@import url('css/marketplace.css');
 
 /* Tag Selectors */
 
@@ -173,6 +173,3 @@ h1,h2,h3{
   }
 
 }
-
-
-@import url('css/marketplace.css');

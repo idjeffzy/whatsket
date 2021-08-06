@@ -1,7 +1,5 @@
 /* Tag Selectors */
-body{
-  overflow: hidden;
-}
+
 
 /* Class Selectors */
 .navbar{
@@ -14,10 +12,6 @@ body{
 
 .dropdown-item:active{
   background-color: #25D366;
-}
-
-.no-top-pd{
-  padding-top: 0;
 }
 
 .no-btm-pd{
