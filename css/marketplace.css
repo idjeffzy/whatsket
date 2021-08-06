@@ -1,3 +1,46 @@
+/* Tag Selectors */
+body{
+  overflow: hidden;
+}
+
+/* Class Selectors */
 .navbar{
   background-color: black;
+}
+
+.filter{
+  padding: 3px 5px;
+}
+
+.dropdown-item:active{
+  background-color: #25D366;
+}
+
+.no-top-pd{
+  padding-top: 0;
+}
+
+.no-btm-pd{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.ad-bz{
+  background-color: #25D366!important;
+  padding-top: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px){
+
+  .filter{
+    margin: auto;
+    padding: 8px 10px;
+    width: 100%;
+  }
+
+  .ad-bz{
+    background-color: #198754!important;
+  }
+
 }
