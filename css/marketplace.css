@@ -40,7 +40,7 @@
 }
 
 .bz-img-placeholder{
-  background-image: url('//C:/Users/user.DESKTOP-OMQ89VA/Documents/WebDev/whatsket/assets/whatsketicon.JPEG');
+  background-image: url('../assets/whatsketicon.JPEG');
   background-repeat: no-repeat;
   background-size: contain;
   height: 150px;
