@@ -39,6 +39,11 @@
   width: 150px;
 }
 
+.bz-img-placeholder{
+  background-image: url('brands/izeblessing.JPG');
+  height: 100px;
+}
+
 .bz-img{
   margin-bottom: 0;
   width: 100%;
