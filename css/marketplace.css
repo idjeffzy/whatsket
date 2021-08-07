@@ -25,14 +25,15 @@
 }
 
 .bordered{
-  border: 1px solid grey;
-  border-radius: 10px;
+
 }
 
 .brands-div{
-  align-content: center;
+  border: 1.5px solid rgba(0,0,0,0.15);
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0px 8px;
   width: 100%;
 }
 /* Business Section */
@@ -85,6 +86,10 @@
 
   .ad-bz{
     background-color: #198754!important;
+  }
+
+  .brands-div{
+    justify-content: space-around;
   }
 
 }
