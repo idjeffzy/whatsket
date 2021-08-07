@@ -24,6 +24,35 @@
   padding-top: 0;
 }
 
+/* Business Section */
+
+.bz-div{
+  width: 150px;
+}
+
+.bz-img{
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.bz-nm{
+  font: 18px Roboto, sans serif;
+  margin: 7px 0;
+}
+
+.bz-des{
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+/* .bz-star{
+  margin-bottom: 0;
+} */
+
+.fa-star, .fa-star-half, .fa-users{
+  font-size: 12px;
+}
+
 /* Media Queries */
 @media (max-width: 768px){
 
