@@ -40,13 +40,20 @@
 }
 
 .bz-img-placeholder{
-  background-image: url('brands/izeblessing.JPG');
-  height: 100px;
+  background-image: url('//C:/Users/user.DESKTOP-OMQ89VA/Documents/WebDev/whatsket/assets/whatsketicon.JPEG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  max-height: 150px;
+  max-width: 100%;;
+  width: 100%;
 }
 
 .bz-img{
-  margin-bottom: 0;
-  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .bz-nm{
