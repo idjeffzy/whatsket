@@ -45,9 +45,18 @@
   margin-bottom: 3px;
 }
 
+.rating{
+  justify-content: space-between;
+}
+
 /* .bz-star{
   margin-bottom: 0;
 } */
+
+.bz-rating-fig{
+  font-size: 12px;
+  font-weight: bold;
+}
 
 .fa-star, .fa-star-half, .fa-users{
   font-size: 12px;
