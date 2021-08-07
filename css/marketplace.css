@@ -24,9 +24,21 @@
   padding-top: 0;
 }
 
+.bordered{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.brands-div{
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
 /* Business Section */
 
 .bz-div{
+  margin: 12px 0;
   width: 150px;
 }
 
@@ -59,7 +71,7 @@
 }
 
 .fa-star, .fa-star-half, .fa-users{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /* Media Queries */
@@ -75,4 +87,11 @@
     background-color: #198754!important;
   }
 
+}
+
+@media (min-width: 900px){
+  .bz-div{
+    margin: 12px 5px;
+    width: 160px;
+  }
 }
